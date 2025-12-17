@@ -63,10 +63,24 @@
   background-color: var(--color-primary);
 }
 
-/* del */
-body {
-  background-color: var(--color-secondary-transparent);
-}
-/* end del */
-
 /* Styling content */
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.--global-padding {
+  padding-left: 101px;
+  padding-right: 101px;
+}
+input {
+  outline: none;
+}
+.home-offer-heading {
+  display: inline;
+  background: linear-gradient(to right, #1090cb 11ch, black 11ch);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
